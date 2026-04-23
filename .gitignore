@@ -1,0 +1,14 @@
+# MATLAB
+*.asv
+*.autosave
+
+# Simulink build cache
+slprj/
+*.slxc
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
