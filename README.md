@@ -2,7 +2,9 @@
 
 State-space controller design for a self-balancing Segway, exploring PID through observer-based full-state feedback.
 
-![Segway diagram](figures/Segway.png)
+<p align="center">
+  <img src="figures/Segway.png" alt="Segway diagram">
+</p>
 
 ## What This Project Does
 
