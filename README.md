@@ -2,6 +2,8 @@
 
 State-space controller design for a self-balancing Segway, exploring PID through observer-based full-state feedback.
 
+![Segway diagram](figures/Segway.png)
+
 ## What This Project Does
 
 The physical system is a two-wheeled inverted pendulum: a 110 kg rider-plus-platform that must stay upright while responding to real-world disturbances like a shifting center of mass. The control challenge is to reject a body-weight offset while maintaining a safe tilt angle and bounded forward velocity — using a single motor torque input.
@@ -21,6 +23,7 @@ The project progresses through ten steps: deriving the open-loop transfer functi
 ```
 matlab/       Standalone MATLAB scripts, one per design step (Steps 1–8, 10)
 simulink/     Simulink models for simulation-based steps (Steps 3–10)
+figures/      System diagram and plots
 report/       Full project report with derivations and results
 ```
 
