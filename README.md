@@ -20,6 +20,11 @@ The project progresses through ten steps: deriving the open-loop transfer functi
 - Dropping the integrator state (3-state model) reduces peak power from 717 W to 1.5 W — roughly 500× — at the cost of a 0.56° steady-state tilt offset under constant disturbance
 - A Luenberger observer with eigenvalues placed 5× faster than the controller recovers full-state-feedback performance within 0.3 s, validating the separation principle in simulation
 
+<p align="center">
+  <img src="figures/step10_4state.png" alt="Step 10 four-state observer-based closed-loop Simulink model"><br>
+  <em>Closed-loop Simulink model for Step 10: plant (bottom) and Luenberger observer (top) run in parallel; the controller uses measured θ, θ̇, ∫θ and the observer's estimate of ẋ.</em>
+</p>
+
 ## Repository Structure
 
 ```
